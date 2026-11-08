@@ -1,0 +1,26 @@
+# R session files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.RData
+*.rds
+
+# Raw data: public, but not redistributed (see data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+
+# Processed data: only the three files deposited with the article are kept
+data/processed/*
+!data/processed/README.md
+!data/processed/deaths_by_cause.csv
+!data/processed/life_tables.csv
+!data/processed/deaths_excluded_sex_age.csv
+
+# Results are recreated by run_all.R
+output/
+
+# System files
+.DS_Store
+Thumbs.db
+~$*
