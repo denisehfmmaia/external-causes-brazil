@@ -1,0 +1,45 @@
+{
+  "title": "External causes of death, life expectancy, and lifespan inequality in Brazil, 2010–2023: code and data",
+  "upload_type": "software",
+  "description": "R code and processed data to reproduce the results of: Marques DHF, Calazans JA, Aburto JM, Acosta E, Nepomuceno MR. External causes of death, life expectancy, and lifespan inequality in Brazil, 2010–2023. Revista Panamericana de Salud Pública / Pan American Journal of Public Health. 2026. The code decomposes the change in life expectancy at birth (e0) and lifespan inequality (life disparity, e†) by age and cause of death for Brazil and its 27 states, by sex, using the method of Horiuchi, Wilmoth and Pletcher (2008).",
+  "creators": [
+    {
+      "name": "Marques, Denise Helena França",
+      "affiliation": "Fundação João Pinheiro, Belo Horizonte, Brazil",
+      "orcid": "0000-0001-7002-4794"
+    },
+    {
+      "name": "Calazans, Júlia Almeida",
+      "affiliation": "London School of Hygiene and Tropical Medicine, London, United Kingdom",
+      "orcid": "0000-0002-6215-3251"
+    },
+    {
+      "name": "Aburto, José Manuel",
+      "affiliation": "London School of Hygiene and Tropical Medicine, London, United Kingdom",
+      "orcid": "0000-0002-2926-6879"
+    },
+    {
+      "name": "Acosta, Enrique",
+      "affiliation": "Centre d'Estudis Demogràfics (CED), Barcelona, Spain",
+      "orcid": "0000-0001-6250-4018"
+    },
+    {
+      "name": "Nepomuceno, Marília R.",
+      "affiliation": "Max Planck Institute for Demographic Research, Rostock, Germany",
+      "orcid": "0000-0002-5687-5776"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "life expectancy",
+    "lifespan inequality",
+    "life disparity",
+    "external causes of death",
+    "homicide",
+    "suicide",
+    "road traffic accidents",
+    "decomposition",
+    "Brazil"
+  ],
+  "language": "eng"
+}
