@@ -1,5 +1,7 @@
 # External causes of death, life expectancy and lifespan inequality in Brazil, 2010–2023
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24118171.svg)](https://doi.org/10.5281/zenodo.24118171)
+
 R code to reproduce the results of:
 
 > Marques DHF, Calazans JA, Aburto JM, Acosta E, Nepomuceno MR. External causes of death,
@@ -103,7 +105,11 @@ slightly different numbers.
 
 Code released under the MIT License (see `LICENSE`). The processed data derive from public
 sources (Ministry of Health/SIM and IBGE). If you use the code or the data, please cite the
-article above and the archived version of this repository: doi: [Zenodo DOI to be added].
+article above and the archived version of this repository:
+
+> Marques DHF, Calazans JA, Aburto JM, Acosta E, Nepomuceno MR. External causes of death, life
+> expectancy, and lifespan inequality in Brazil, 2010–2023: code and data. Zenodo; 2026.
+> doi: [10.5281/zenodo.24118171](https://doi.org/10.5281/zenodo.24118171)
 
 ## 7. Contact
 
