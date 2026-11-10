@@ -49,4 +49,11 @@ not informed (reported in the Methods).
 | `excluded_deaths` | deaths with unknown sex or age |
 | `percent_excluded` | `excluded_deaths / total_deaths × 100` |
 
+## Sources and download dates
+
+- SIM (Ministry of Health/DATASUS) microdata.
+- IBGE life tables, population projections (2024 revision).
+
 <!-- TODO (Denise): add the download dates of the SIM and IBGE files. -->
+
+See `data/raw/README.md` for the description of the raw files.
