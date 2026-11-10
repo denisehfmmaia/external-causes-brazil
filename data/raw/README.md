@@ -28,7 +28,8 @@ Source: SIM microdata (death certificates, SIM-DO), Ministry of Health (DATASUS)
 at <https://opendatasus.saude.gov.br/dataset/sim>. The aggregated file was created on
 14 March 2025.
 
-How the file was built from the microdata:
+The file was prepared by Igor Augusto Tadeu de Souza, whom we thank. How it was built from the
+microdata:
 
 1. The SIM-DO files (ICD-10 period) were downloaded from the DATASUS FTP server, one file per
    state and year, 1996–2023, with the R package `microdatasus` (Saldanha et al., 2019), and

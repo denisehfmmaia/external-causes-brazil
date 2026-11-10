@@ -109,6 +109,11 @@ article above and the archived version of this repository: doi: [Zenodo DOI to b
 
 Denise Helena França Marques — Fundação João Pinheiro, Belo Horizonte, Brazil — denise.maia@fjp.mg.gov.br
 
+## 8. Acknowledgements
+
+We thank Igor Augusto Tadeu de Souza for preparing the SIM mortality file from the microdata
+(see [`data/raw/README.md`](data/raw/README.md)).
+
 ## References
 
 - Horiuchi S, Wilmoth JR, Pletcher SD. A decomposition method based on a model of continuous change. *Demography*. 2008;45(4):785–801.
