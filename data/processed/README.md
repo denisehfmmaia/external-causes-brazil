@@ -51,9 +51,7 @@ not informed (reported in the Methods).
 
 ## Sources and download dates
 
-- SIM (Ministry of Health/DATASUS) microdata.
-- IBGE life tables, population projections (2024 revision).
-
-<!-- TODO (Denise): add the download dates of the SIM and IBGE files. -->
+- SIM (Ministry of Health/DATASUS) microdata, aggregated file created on 14 March 2025.
+- IBGE life tables, population projections (2024 revision), file dated 22 May 2025.
 
 See `data/raw/README.md` for the description of the raw files.

@@ -24,11 +24,29 @@ combination of the columns below:
 Only `ano`, `uf_nome_res`, `sexo`, `faixa_etaria`, `causabas` and `N` are used. Deaths with sex
 `Ignorado`/empty or unknown age are excluded (see `data/processed/deaths_excluded_sex_age.csv`).
 
-Source: SIM microdata, Ministry of Health (DATASUS), available at
-<https://opendatasus.saude.gov.br/dataset/sim>. The file was built by aggregating the individual
-death records by the columns above.
+Source: SIM microdata (death certificates, SIM-DO), Ministry of Health (DATASUS), also available
+at <https://opendatasus.saude.gov.br/dataset/sim>. The aggregated file was created on
+14 March 2025.
 
-<!-- TODO (Denise): add the download date of the SIM microdata. -->
+How the file was built from the microdata:
+
+1. The SIM-DO files (ICD-10 period) were downloaded from the DATASUS FTP server, one file per
+   state and year, 1996–2023, with the R package `microdatasus` (Saldanha et al., 2019), and
+   stacked into a single data set.
+2. For each death record:
+   - year = year of the date of death (`DTOBITO`);
+   - state of residence and of occurrence = first two digits of the municipality code
+     (`CODMUNRES`, `CODMUNOCOR`);
+   - sex (`SEXO`): 1 = `Homem`, 2 = `Mulher`, 0 or 9 = `Ignorado`;
+   - age in years from the SIM age code (`IDADE`): codes up to 399 (minutes, hours, days or
+     months) = 0 years; codes 400 or more = code − 400 years; 999 = unknown. Ages were then
+     grouped into 0, 1–4, 5–9, …, 80–84 and 85 or more;
+   - underlying cause (`CAUSABAS`) kept as recorded.
+3. Deaths were counted by year, state of residence, state of occurrence, sex, age group and
+   underlying cause.
+
+Saldanha RF, Bastos RR, Barcellos C. Microdatasus: pacote para download e pré-processamento de
+microdados do Departamento de Informática do SUS (DATASUS). *Cad Saúde Pública*. 2019;35(9):e00032419.
 
 ## 2. Life tables — IBGE, population projections (2024 revision)
 
@@ -39,4 +57,4 @@ Life tables by state, sex and single year (2000–2070), with open age group 90+
 Source: IBGE, *Projeções da população do Brasil e das Unidades da Federação*, revisão 2024,
 <https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html>.
 
-<!-- TODO (Denise): add the download date of the IBGE file. -->
+File dated 22 May 2025.
